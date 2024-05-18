@@ -1,5 +1,5 @@
 # Report: Predict Bike Sharing Demand with AutoGluon Solution
-#### NAME HERE
+#### BURAK YALÇIN
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
@@ -10,7 +10,9 @@ The top ranked model that performed is the WeightedEnsemble_L3 with a Kaggle sco
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
-TODO: Add your explanation
+Dataset Loading: The train, test, and submission datasets are loaded from CSV files, with the datetime column parsed to facilitate time-based feature extraction.
+
+Initial Data Inspection: The head() method is used to display the first few rows of the datasets to get an initial sense of the data.
 
 ### How much better did your model preform after adding additional features and why do you think that is?
 After implementing additional features, the model's performance significantly worsened due to some mistakes probably i have done. The Kaggle score increased (negatively) from about 1.8022 to 4.7619.
@@ -37,4 +39,4 @@ If i were given more time to deal with this dataset I would dive into the potent
 ![model_test_score.png](model_test_score.png)
 
 ## Summary
-TODO: Add your explanation
+This project successfully demonstrated the process of developing a AutoGluon model for bike rental demand. Key steps included thorough data preparation, exploratory analysis, feature engineering, and model optimization. The final model achieved a competitive performance, highlighting the importance of iterative experimentation and refinement in machine learning projects.
